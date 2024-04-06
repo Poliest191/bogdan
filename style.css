@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: aquamarine;
+    height: 90px;
+    text-align: center;
+    font-family:serif;
+}
+
+header h1{
+    padding: 25px;
+}
+
+.dino{
+    float: left;
+    height: 100px;
+    width: 50px;
+    }
+    
+    .dino2{
+    float: right;
+    width: 300px;
+    height: 200px;
+    }
+    
+    .dino3{
+    float: right;
+    width: 50px;
+    height: 25px;
+    }
+    
+    .dino4{
+    float: left;
+    height: 200px;
+    width: 300px;
+    }
+    
+    .dino5{
+    float: left;
+    width: 300px;
+    height: 200px;
+    }
+    
+    .dino6{
+    float: right;
+    height: 200px;
+    width: 300px;
+    }
+    
+    section{
+    width: 200px;
+    height: 100px;
+    display: block;
+    }
