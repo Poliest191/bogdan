@@ -13,10 +13,17 @@ header h1{
     padding: 25px;
 }
 
+section{
+    width:100%;
+    height:300px;
+    display: block;
+}
+
 .dino{
     float: left;
     height: 100px;
     width: 50px;
+    position: relative;
     }
     
     .dino2{
