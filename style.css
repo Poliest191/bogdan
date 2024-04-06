@@ -1,63 +1,85 @@
-body{
-    font-family: sans-serif;
-}
-
 header{
-    background-color: aquamarine;
-    height: 90px;
+    height:70px;
+    background-color: aqua;
     text-align: center;
-    font-family:serif;
+    padding: 10px;
 }
 
-header h1{
-    padding: 25px;
+nav{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+}
+
+nav a:hover{
+    border-bottom: 1px solid black;
 }
 
 section{
-    width:100%;
-    height:300px;
-    display: block;
+    width: 100%;
+    height: 350px;
 }
 
 .dino{
+    padding: 10px;
+}
+
+.dino img{
+    height: 300px;
+    width: 400px;
     float: left;
-    height: 100px;
-    width: 50px;
-    position: relative;
-    }
-    
-    .dino2{
-    float: right;
-    width: 300px;
-    height: 200px;
-    }
-    
-    .dino3{
-    float: right;
-    width: 50px;
-    height: 25px;
-    }
-    
-    .dino4{
+}
+
+.dino img:hover{
+    border-bottom: 15px solid aqua;
+    border-left: 15px solid aqua;
+}
+
+.dino2{
+    height: 70px;
     float: left;
-    height: 200px;
-    width: 300px;
-    }
-    
-    .dino5{
-    float: left;
-    width: 300px;
-    height: 200px;
-    }
-    
-    .dino6{
-    float: right;
-    height: 200px;
-    width: 300px;
-    }
-    
-    section{
-    width: 200px;
-    height: 100px;
-    display: block;
-    }
+    width: 500px;
+}
+
+.dino2 p{
+    margin: 20px;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.dino2 h2{
+    margin: 20px;
+
+}
+
+.dino2 h2:hover{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 25px;
+    padding: 10px;
+}
+
+footer{
+    background-color: aquamarine;
+    width: 100%;
+    height: 120px;
+}
+
+footer a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+footer a:hover{
+    border-bottom: 1px solid black;
+}
